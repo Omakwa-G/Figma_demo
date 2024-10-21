@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'graphik';
+    src: url('./fonts/GraphikBlack.otf');
+    font-weight: normal;
+  font-style: normal;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #181818;
+}
+
+.contentCard:nth-of-type(2) > div > button{
+  margin-top: -25px;
+  width: 190px;
+}
+
+.contentCard:nth-of-type(2) > img{
+  margin-top: -50px;
+}
+
+.contentCard > div > button {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  
+}
+
+.gallery-image {
+  max-width: 100%; /* Ensure images are responsive */
+}
+
+.nav-container{
+  /* From https://css.glass */
+background: rgba(59, 59, 61, 0.47);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(16px);
+-webkit-backdrop-filter: blur(16px);
+border: 1px solid rgba(17, 0, 240, 0.3);
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .testimonial{
+    grid-template-columns: 1fr;
+  }
+  
+  .heroH{
+    width: 310px;
+    height: 186px;
+    padding: 10px;
+    margin-top: -30px;
+
+  }
+
+  .contentCard:nth-of-type(2) {
+    gap: 52px
+  }
+
+  .try{
+    text-align: center;
+  }
+
+  .try > img{
+    padding: 13px;
+  }
+
+  .trybtn{
+    margin-top: 150px;
+    margin-left: 80px;
+  }
+
+  .foot-links > div:nth-of-type(3){
+    margin-right: 30px;
+}
+}
+
+@media screen and (max-width: 768px) {
+ 
+}
+
+
+@media screen and (min-width: 1100px) {
+ 
+
+}
