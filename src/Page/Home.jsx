@@ -1,5 +1,6 @@
 import React from 'react'
-import Hero from './innerPage/Hero';
+import Hero from '../innerPage/Hero';
+import Features from '../innerPage/Features';
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
   return (
     <div>
       <Hero/>
+      <Features/>
     </div>
   )
 }
