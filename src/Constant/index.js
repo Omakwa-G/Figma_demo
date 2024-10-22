@@ -45,3 +45,4 @@ export const features = [
         text: 'When you add work to your Slate calendar we automatically calculate useful insights',
     }
 ]
+
