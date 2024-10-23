@@ -4,7 +4,7 @@ import { navlinks } from '../Constant';
 import { AiOutlineClose } from "react-icons/ai";
 import { BiMenuAltRight } from 'react-icons/bi';
 import { AnimatePresence, motion } from "framer-motion";
-import {itemVariants, sideVariants} from '../Utils/motion';
+import {itemVariants, sideVariants} from '../Utils/Motion';
 import { Link } from "react-router-dom";
 
 

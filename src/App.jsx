@@ -7,6 +7,7 @@ import Home from './Page/Home';
 import About from './Page/About';
 import Product from './Page/Product';
 import Contact from './Page/Contact';
+import Footer from './Page/Footer';
 
 
 
