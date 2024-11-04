@@ -7,7 +7,7 @@ export const itemVariants = {
   
  export const sideVariants = {
     closed: {
-      transition: {
+      transition: { 
         staggerChildren: 0.2,
         staggerDirection: -1
       }

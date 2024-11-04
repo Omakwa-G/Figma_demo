@@ -20,7 +20,7 @@ function Contents() {
             <motion.p variants={fadeIn('top', 'spring', .5, 1)} className="font-bold text-[20px] leading-[30px] tracking-[0.1px]">{content.name}</motion.p>
             <motion.p  variants={fadeIn('top', 'spring', .6, 1)}  className="text-center w-[268px] h-[72px] leading-[24px] tracking-[0.2px] text-[16px] p-1">{content.text}</motion.p>
             <div className="">
-            <motion.button variants={fadeIn('top', 'spring', .7, 1)} className="w-[157px] h-[52px] rounded-[3px] bg-primary text-white flex items-center justify-center font-bold">{content.button}</motion.button>
+            <motion.button variants={fadeIn('top', 'spring', .7, 1)} className="w-[157px] h-[52px] rounded-[3px] bg-[green] text-white flex items-center justify-center font-bold">{content.button}</motion.button>
             </div>
             <motion.img variants={fadeIn('top', 'spring', .8, 1)} src={content.icon} alt="" />
           </motion.div>

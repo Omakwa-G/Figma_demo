@@ -1,9 +1,13 @@
 import React from 'react'
+import Aboutvision from '../innerPage/Aboutvision';
+import Aboutimage from '../innerPage/Aboutimage';
 
 const About = () => {
   return (
-    <div className='mt-[10vh]'>
-      <h2>ABOUT PAGE</h2>
+    <div>
+      
+      <Aboutvision/>
+      <Aboutimage/>
     </div>
   )
 }

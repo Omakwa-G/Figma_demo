@@ -19,7 +19,7 @@ function Try  () {
             className="text-[52px] leading-[62px] md:w-[479px] h-[124px]">OpenType feature and Variable fonts</motion.h2>
             <motion.button  
             variants={fadeIn("down", "spring", 0.5, 1)} 
-            className="trybtn xs:mt-[200px] md:mt-[0] w-[232px] h-[52px] bg-primary text-white flex items-center justify-center font-bold">Try for free</motion.button>
+            className="trybtn xs:mt-[200px] md:mt-[0] w-[232px] h-[52px] bg-[green] text-white flex items-center justify-center font-bold">Try for free</motion.button>
           </div>
           <motion.img variants={zoomIn(.2, .5)}  src={landing} alt="" className="overflow-hidden lg:pb-5 lg:pr-2"/>
         </div>

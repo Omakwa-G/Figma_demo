@@ -37,7 +37,7 @@ const Navbar = () => {
                 )
             })}
         </div>
-        <button className='w-[139px] h-[50px] rounded-[3px] border-[1px] mt-2'>Login</button>
+       <Link to={'/login'}><button className='w-[139px] h-[50px] rounded-[3px] border-[1px] mt-2'>Login</button></Link> 
       </nav>
 
       {/* mobile navbar */}

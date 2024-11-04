@@ -20,13 +20,23 @@ import avatarA from '../assets/avatarA.png';
 import avatarB from '../assets/avatarB.png';
 import avatarC from '../assets/avatarC.png';
 import avatarD from '../assets/avatarD.png';
+import aimage from '../assets/aimage.png';
+import p1 from '../assets/p1.png';
+import p2 from '../assets/p2.png';
+import p3 from '../assets/p3.png';
+import p4 from '../assets/p4.png';
+import p5 from '../assets/p5.jpg';
+import p6 from '../assets/p6.jpg';
+
+
+
 
 
 export const navlinks =[
     {
         name: "Home",
         title: "Home",
-        url: '#'
+        url: '/'
 
     },
     {
@@ -176,5 +186,47 @@ export const partners = [
         review: 'Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.'
     },
 ]
-
- 
+export const aboutimage = [
+    { icon: aimage},
+ ]
+export const product = [
+    {
+   name: "Exhibit 1",
+   description:
+     "This is the use of a hologram which is specifically designed to keep a track of events around you.",
+   image: p1,
+  
+  },
+  {
+   name: "Exhibit 2",
+   description:
+     "This also uses a hologram but mainly for graphic editing. This particular one is user-friendly as it allows for multiple choices ",
+   image: p2
+  },
+  {
+   name: "Exhibit 3",
+   description:
+     "This particular U.I was built in the year 2007 by the United Organisation of German Science. It was built mainly for astronauts so as to keep track of timee in space.",
+   image: p3
+  },
+  {
+   name: "Exhibit 4",
+   description:
+     "This particular software is built for the sole purpose of interactivity amongst multiple users. People seldom socialise in the society. It is made easy with this U.I.",
+   image: p4
+  },
+  {
+   name: "Exhibit 5",
+   description:
+     "This particular software provides a platform that displays different graphics to the multiple users. It helps in gemerating ideas for graphic designers.",
+   image: p5
+  },
+  {
+   name: "Exhibit 6",
+   description:
+     "This is a software that enables the users to work across different screens with the sole aim of meeting up to their schedule. It consists of multiple screens to enable the user to do just that.",
+   image: p6
+  },
+  ];
+  
+  
